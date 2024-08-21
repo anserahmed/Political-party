@@ -20,22 +20,22 @@ function Navigation() {
             <div className="h-[10vh] w-[10vh]  ">
               <img className="h-[100%] w-[100%]" src={logo} alt="logo" />
             </div>
-            <h1 className="hidden sm:block text-3xl font-semibold  sm:text-left ">
+            <h1 className="hidden md:block text-3xl font-semibold  md:text-left ">
               Rastriya Mukti Kranti
             </h1>
           </div>
 
           {/* Bada navbar (Upper navbar)  */}
-          <div className="md:flex  text-sm font-bold items-center hidden justify-between gap-7">
+          <div className="flex text-xs sm:text-sm font-bold items-center  px-2  justify-between gap-5 md:gap-7">
             <Link to="/">
-              <h4 className="text-blue-500 hover:text-orange-400 transition ease-in">
-                UPCOMING EVENTS
+              <h4 className="text-blue-500 flex gap-1 hover:text-orange-400 transition ease-in">
+                <span className="hidden  sm:flex">UPCOMING</span> EVENTS
               </h4>
             </Link>
 
             <Link to="/contact">
-              <h4 className=" text-blue-500  hover:text-orange-400  transition ease-in">
-                RKM <span className="text-green-500">LIVE</span>
+              <h4 className=" text-green-500  hover:text-orange-400 flex gap-1 transition ease-in">
+               <span className="text-blue-500 hidden sm:block">RKM</span>  LIVE
               </h4>
             </Link>
             <Link to="/contact">
@@ -46,12 +46,12 @@ function Navigation() {
 
             <div className="flex justify-center items-center gap-2">
               <Link to="/join">
-                <button className="bg-orange-400 hover:bg-orange-500 transition ease-in  rounded-md text-white px-6 py-1 ">
+                <button className="bg-orange-400 hover:bg-orange-500 transition ease-in hidden  sm:block rounded-md text-white px-6 py-1 ">
                   Join
                 </button>
               </Link>
               <Link to="/donate">
-                <button className="bg-orange-400 hover:bg-red-500  transition ease-in  rounded-md text-white  px-3 py-1 ">
+                <button className="bg-orange-400 hover:bg-red-500  hidden sm:block transition ease-in  rounded-md text-white  px-3 py-1 ">
                   Donate
                 </button>
               </Link>
