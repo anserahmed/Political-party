@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 function Navigation() {
-  const navDialogeRef = useRef(null);
 
+  const navDialogeRef = useRef(null);
   function handleMenu() {
     if (navDialogeRef.current) {
       navDialogeRef.current.classList.toggle("hidden");
@@ -14,14 +14,17 @@ function Navigation() {
 
   return (
     <>
-      <section className="z-40 w-full bg-slate-100 backdrop-blur-sm shadow-lg p-2 relative">
+      <section className="z-40 w-screen fixed bg-transparent/20 backdrop-blur-sm shadow-lg p-2 ">
         <nav className="flex justify-between px-2 items-center">
           <div className="flex justify-center items-center gap-4">
-            <div className="h-[10vh] w-[10vh]  ">
+            <div className="h-[8vh] w-[8vh]  ">
               <img className="h-[100%] w-[100%]" src={logo} alt="logo" />
             </div>
-            <h1 className="hidden md:block text-3xl font-semibold  md:text-left ">
+            <h1 className="hidden md:block text-3xl text-gray-200  font-semibold  md:text-left ">
               Rastriya Mukti Kranti
+            </h1>
+            <h1 className=" sm:hidden text-xl text-gray-200  font-semibold  md:text-left ">
+             RKM
             </h1>
           </div>
 
@@ -60,7 +63,7 @@ function Navigation() {
 
           <button onClick={handleMenu}>
             <svg
-              className="h-8 w-8   text-gray-900"
+              className="h-8 w-8   text-gray-100"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -78,7 +81,7 @@ function Navigation() {
 
           <div
             ref={navDialogeRef}
-            className="transition pt-6 hidden ease-in sm-menu bg-white fixed z-20 px-4 py-3 h-screen w-screen right-0 top-0"
+            className="transition pt-6 hidden ease-in bg-slate-50 fixed px-4 z-40 py-3 h-screen w-full right-0 top-0"
           >
             <div className="flex font-bold justify-between items-center">
               <h1 className="text-orange-500 text-3xl px-6 ">R M K</h1>
