@@ -23,26 +23,24 @@ function Navigation() {
             <h1 className="hidden md:block text-3xl text-gray-200  font-semibold  md:text-left ">
               Rastriya Mukti Kranti
             </h1>
-            <h1 className=" sm:hidden text-xl text-gray-200  font-semibold  md:text-left ">
-             RKM
-            </h1>
+           
           </div>
 
           {/* Bada navbar (Upper navbar)  */}
-          <div className="flex text-xs sm:text-sm font-bold items-center  px-2  justify-between gap-5 md:gap-7">
+          <div className="flex text-xs sm:text-sm font-bold items-center  px-2  justify-between gap-4 md:gap-7">
             <Link to="/">
-              <h4 className="text-blue-500 flex gap-1 hover:text-orange-400 transition ease-in">
+              <h4 className="text-gray-300 flex gap-1 hover:text-orange-400 transition ease-in">
                 <span className="hidden  sm:flex">UPCOMING</span> EVENTS
               </h4>
             </Link>
 
             <Link to="/contact">
-              <h4 className=" text-green-500  hover:text-orange-400 flex gap-1 transition ease-in">
-               <span className="text-blue-500 hidden sm:block">RKM</span>  LIVE
+              <h4 className=" text-gray-300  hover:text-orange-400 flex gap-1 transition ease-in">
+               <span className="text-gray-300 hidden sm:block">RKM</span>  LIVE
               </h4>
             </Link>
             <Link to="/contact">
-              <h4 className=" text-blue-500 hover:text-orange-400 transition ease-in">
+              <h4 className=" text-gray-300 hover:text-orange-400 transition ease-in">
                 RESOURCES
               </h4>
             </Link>
@@ -63,7 +61,7 @@ function Navigation() {
 
           <button onClick={handleMenu}>
             <svg
-              className="h-8 w-8   text-gray-100"
+              className="h-8 w-8   text-gray-300"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"

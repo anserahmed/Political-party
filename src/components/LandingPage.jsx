@@ -10,7 +10,7 @@ function LandingPage() {
     
       {/* Alag hai */}
 
-      <div className="h-[70vh] sm:h-[80]  md:h-[90vh]  xl:h-[100vh] 2xl:h-[100vh] relative">
+      <div className="h-[58vh] sm:h-[60vh]  md:h-[65vh]  xl:h-[90vh] 2xl:h-[100vh] relative">
         <Carousel className="">
           {[carousel, carousel1, carousel2].map((src, index) => (
             <div className="relative w-full h-full" key={index}>

@@ -23,7 +23,7 @@ export default function Join3() {
               >
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
-              Personal <span class="hidden sm:inline-flex sm:ms-2">Info</span>
+              Contact <span class="hidden sm:inline-flex sm:ms-2">Info</span>
             </span>
           </li>
           <li class="flex md:w-full items-center text-blue-600 after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">
@@ -37,7 +37,7 @@ export default function Join3() {
               >
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
-              Contact <span class="hidden sm:inline-flex sm:ms-2">Info</span>
+              Personal <span class="hidden sm:inline-flex sm:ms-2">Info</span>
             </span>
           </li>
           <li class="flex text-blue-600 items-center">
